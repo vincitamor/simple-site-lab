@@ -1,0 +1,34 @@
+/*list reset*/
+ul {
+    list-style: none;
+}
+/* Body styles*/
+body {
+    background: lightblue;
+    color: white;
+    border: 5px solid orange;
+    height: 650px;
+    width: 50%;
+}
+/* First section */
+
+body > section > header {
+text-align: center;
+}
+nav > ul > li {
+    display: inline-block;
+}
+ul > li + li {
+    border-left: 2px solid red;
+    line-height: 12px;
+    padding-left: 4px;
+}
+/* Second section*/
+section > main {
+    margin-left: 30px;
+    width: 70%;
+}
+img {
+    width: 30%;
+    float: right;
+}
