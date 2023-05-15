@@ -7,13 +7,24 @@ body {
     background: lightblue;
     color: white;
     border: 5px solid orange;
-    height: 650px;
     width: 50%;
+    height: 650px;
+    margin-left: 325px;
+}
+a {
+    color: orange;
 }
 /* First section */
 
-body > section > header {
+header > h1 {
+    font: 100 25px Arial, Helvetica, sans-serif;
+}
+
+body > section > header > h1 {
 text-align: center;
+}
+ul {
+    text-align: center;
 }
 nav > ul > li {
     display: inline-block;
@@ -23,12 +34,30 @@ ul > li + li {
     line-height: 12px;
     padding-left: 4px;
 }
-/* Second section*/
-section > main {
-    margin-left: 30px;
-    width: 70%;
+header > nav > ul > li > a{
+    text-decoration: none;
+    color: white;
 }
+/* header > nav > ul > li + li {
+    text-decoration: underline;
+    color: orange;
+} */
+header > nav > ul > li + li > a{
+    text-decoration: underline;
+    color: orange;
+}
+/* Second section*/
+
 img {
     width: 30%;
     float: right;
 }
+section > main {
+    clear: both;
+    margin-left: 30px;
+    width: 90%;
+}
+h2 {
+    font: bold 21px Helvetica;
+}
+/* footer */
